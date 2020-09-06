@@ -192,7 +192,7 @@ function main(){
         console.log('\n---------- Classify user service started...')
         setInterval(()=>{
             classifyUsers()
-        },3000)
+        },60000)
     } catch (error) {
         throw error;
     }
